@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <title>challenge</title>
+  </head>
+  <body>
+    <button id="back-img">배경바꾸기</button>
+    <div class="all">
+      <div class="content">
+        <div class="login-area">
+          <form class="hidden" id="login-form">
+            <input
+              id="input-name"
+              type="text"
+              placeholder="이름을 입력하세요."
+              maxlength="16"
+            />
+            <button id="myname-button">확인</button>
+          </form>
+          <h2 id="who"></h2>
+        </div>
+        <h2>할 일</h2>
+        <form id="todo-form">
+          <input
+            id="input-todo"
+            type="text"
+            placeholder="할 일을 입력하세요."
+          />
+        </form>
+        <ul id="ul-todo"></ul>
+      </div>
+      <div class="footer">
+        <div class="clock">
+          <h3 id="clock"></h3>
+        </div>
+        <div class="geo">
+          <h3 id="weather"></h3>
+          <h3 id="location"></h3>
+        </div>
+      </div>
+    </div>
+    <!-- <script src="./js/greetings.js"></script> -->
+    <script src="./js/login.js"></script>
+    <script src="./js/clock.js"></script>
+    <!-- <script src="./js/quotes.js"></script> -->
+    <script src="js/background.js"></script>
+    <script src="./js/todo.js"></script>
+    <script src="js/geolocation.js"></script>
+  </body>
+</html>
+
+<!-- 조건 -->
+<!-- 
+1. 실시간 시계
+2. 로컬 스토리지를 사용한 로그인
+3. 로컬 스토리지를 사용한 투두리스트
+4. 랜덤 배경 이미지
+5. 날씨와 위치(geolocation)
+6. 여러분의 CSS 실력을 뽐내주세요
+ -->
